@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Hanukia Calculator</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <h1>Hanukia Calculator</h1>
+        <h2>The Hanukia Calculator calculates how many candles to light <br> according to the number of people at home and Hanuka night.</h2>
+        <img src="img/Hanoukia.gif">
+        <section class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <h2>עיקר הדין</h2><br />
+                <h3 id="regular">---</h3>
+            </div>
+           <div class="col-12 col-sm-6 col-lg-3">
+                <h2>מהדרין</h2><br />
+                <h3 id="mehadrin">---</h3>
+            </div>
+           <div class="col-12 col-sm-6 col-lg-3">
+                <h2>מהדרין מן המהדרין - ספרד</h2>
+                <h3 id="mmh-sfarad">---</h3>
+            </div>
+           <div class="col-12 col-sm-6 col-lg-3">
+                <h2>מהדרין מן המהדרין - אשכנז</h2>
+                <h3 id="mmh-ashkenaz">---</h3>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-12 col-sm-6 col-lg-6">
+                <input type="text" id="people-number" placeholder="כמה אנשים בבית" class="form-control input-lg"/>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6">
+                <input type="text" id="hanuka-day" placeholder="איזה יום בחנוכה" class="form-control input-lg"/>
+            </div>
+        </section>
+        <button id="calculator-btn" class="btn btn-primary ">Calculate</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

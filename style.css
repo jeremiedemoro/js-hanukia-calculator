@@ -1,0 +1,27 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 50px;
+}
+.row {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#regular {
+    color:red;
+}
+#mehadrin {
+    color:darkolivegreen;
+}
+#mmh-sfarad {
+    color: yellow;
+}
+#mmh-ashkenaz {
+    color:darkcyan;
+}
+h3 {
+    font-size: 50px;
+    font-weight: 300;
+}
